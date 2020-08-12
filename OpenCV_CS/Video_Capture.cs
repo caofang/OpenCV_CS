@@ -18,6 +18,9 @@ namespace OpenCV_CS
 		{
 			_capture = new VideoCapture(cameraIdx);
 
+			_capture.Set(CaptureProperty.FrameHeight, 720);
+			_capture.Set(CaptureProperty.FrameWidth, 1080);
+
 			var width = (int)_capture.Get(3);
 			var height = (int)_capture.Get(4);
 
@@ -49,6 +52,8 @@ namespace OpenCV_CS
 					_capture.Read(image); // same as cvQueryFrame
 					if (image.Empty())
 						break;
+
+					image.RotateImage(270, 1);
 
 					var timestamp = string.Format("{0:HH:mm:ss.fff}", DateTime.Now);
 					var text = string.Format("Frame: {0}, timestamp {1}", _count.ToString(), timestamp);

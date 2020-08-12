@@ -74,9 +74,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ImageUtil.cs" />
     <Compile Include="ListCamera.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RotateImage.cs" />
     <Compile Include="Video_Capture.cs" />
   </ItemGroup>
   <ItemGroup>
