@@ -20,11 +20,11 @@ namespace OpenCV_CS
 		{
 
 
-			//ListCamera.ListAllAttachedCameras();
+			ListCamera.ListAllAttachedCameras();
 
-			
-			var path = Environment.GetFolderPath(Environment.SpecialFolder.Desktop) + @"\GaitRite3D_Videos\portugal_team.jpg"; 
-			var r =  new RotateImage(path);
+
+			//var path = Environment.GetFolderPath(Environment.SpecialFolder.Desktop) + @"\GaitRite3D_Videos\portugal_team.jpg"; 
+			//var r =  new RotateImage(path);
 
 			//var capture = new Video_Capture(2, 30);
 			//capture.StartCapture();
