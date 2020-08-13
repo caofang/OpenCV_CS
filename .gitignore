@@ -1,5 +1,5 @@
 .vs/*
-OpenCV_CS/bin/*
-OpenCV_CS/obj/*
+*/**/bin/*
+*/**/obj/*
 
 
