@@ -55,8 +55,6 @@ namespace OpenCV_CS
 			{
 				Console.WriteLine("{0} {1}", cameras.IndexOf(camera), camera);
 			}
-
-			Console.ReadKey();
 		}
 	}
 }

@@ -5,9 +5,7 @@ VisualStudioVersion = 15.0.28307.572
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenCVSharp", "OpenCV_CS\OpenCVSharp.csproj", "{E26E4213-7B7E-41BB-A223-97B82C0C8537}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Emgu_CV_Example", "EMGU.CV\Emgu_CV_Example.csproj", "{CFAA15C6-2051-4506-A162-DD0EED7EB2BF}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenCVSharp.ImageConversion", "OpenCVSharp.ImageConversion\OpenCVSharp.ImageConversion.csproj", "{7B82C6F8-66E0-41FF-B70C-B9F0E97C838D}"
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Setup", "Setup\Setup.vdproj", "{331C0FEC-4508-48BE-BF93-640606F36CD0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -19,14 +17,8 @@ Global
 		{E26E4213-7B7E-41BB-A223-97B82C0C8537}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E26E4213-7B7E-41BB-A223-97B82C0C8537}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E26E4213-7B7E-41BB-A223-97B82C0C8537}.Release|Any CPU.Build.0 = Release|Any CPU
-		{CFAA15C6-2051-4506-A162-DD0EED7EB2BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{CFAA15C6-2051-4506-A162-DD0EED7EB2BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{CFAA15C6-2051-4506-A162-DD0EED7EB2BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{CFAA15C6-2051-4506-A162-DD0EED7EB2BF}.Release|Any CPU.Build.0 = Release|Any CPU
-		{7B82C6F8-66E0-41FF-B70C-B9F0E97C838D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{7B82C6F8-66E0-41FF-B70C-B9F0E97C838D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{7B82C6F8-66E0-41FF-B70C-B9F0E97C838D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{7B82C6F8-66E0-41FF-B70C-B9F0E97C838D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{331C0FEC-4508-48BE-BF93-640606F36CD0}.Debug|Any CPU.ActiveCfg = Debug
+		{331C0FEC-4508-48BE-BF93-640606F36CD0}.Release|Any CPU.ActiveCfg = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

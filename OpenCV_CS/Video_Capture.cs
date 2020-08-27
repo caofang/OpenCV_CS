@@ -4,6 +4,14 @@ using OpenCvSharp;
 
 namespace OpenCV_CS
 {
+	public enum Rotation
+	{
+		DEGREE_0 = 0,
+		DEGREE_90 = 90,
+		DEGREE_180 = 180,
+		DEGREE_270 = 270,
+	}
+
 	public class Video_Capture
 	{
 
@@ -41,7 +49,7 @@ namespace OpenCV_CS
 			_isRecording = false;
 		}
 
-		public void StartCapture()
+		public void StartCapture(Rotation degree)
 		{
 			
 			using (Mat image = new Mat()) // Frame image buffer
@@ -53,7 +61,7 @@ namespace OpenCV_CS
 					if (image.Empty())
 						break;
 
-					image.RotateImage(270, 1);
+					image.RotateImage((int)degree, 1);
 
 					var timestamp = string.Format("{0:HH:mm:ss.fff}", DateTime.Now);
 					var text = string.Format("Frame: {0}, timestamp {1}", _count.ToString(), timestamp);
